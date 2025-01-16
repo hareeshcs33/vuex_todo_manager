@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="add-todo">
     <form @submit="onSubmit">
       <input type="text" v-model="title" placeholder="enter todo title" />
       <input type="submit" value="submit" />
